@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24C959AF16DFABDC00CB4292 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C959AE16DFABDC00CB4292 /* SenTestingKit.framework */; };
+		24C959B116DFABDC00CB4292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C959B016DFABDC00CB4292 /* UIKit.framework */; };
+		24C959B316DFABDC00CB4292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C959B216DFABDC00CB4292 /* Foundation.framework */; };
+		24C959B916DFABDC00CB4292 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24C959B716DFABDC00CB4292 /* InfoPlist.strings */; };
+		24C959D716DFAC5600CB4292 /* NSArray+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959C416DFAC5600CB4292 /* NSArray+Ext.m */; };
+		24C959D816DFAC5600CB4292 /* NSBundle+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959C616DFAC5600CB4292 /* NSBundle+Ext.m */; };
+		24C959D916DFAC5600CB4292 /* NSData+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959C816DFAC5600CB4292 /* NSData+Ext.m */; };
+		24C959DA16DFAC5600CB4292 /* NSDictionary+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959CA16DFAC5600CB4292 /* NSDictionary+Ext.m */; };
+		24C959DB16DFAC5600CB4292 /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959CC16DFAC5600CB4292 /* NSString+Ext.m */; };
+		24C959DC16DFAC5600CB4292 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959CE16DFAC5600CB4292 /* UIColor+Ext.m */; };
+		24C959DD16DFAC5600CB4292 /* UIDevice+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959D016DFAC5600CB4292 /* UIDevice+Ext.m */; };
+		24C959DE16DFAC5600CB4292 /* UIImage+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959D216DFAC5600CB4292 /* UIImage+Ext.m */; };
+		24C959DF16DFAC5600CB4292 /* UIScreen+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959D416DFAC5600CB4292 /* UIScreen+Ext.m */; };
+		24C959E016DFAC5600CB4292 /* UITableView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959D616DFAC5600CB4292 /* UITableView+Ext.m */; };
+		24C959E316DFAC6400CB4292 /* NSArrayExtTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959E216DFAC6400CB4292 /* NSArrayExtTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24C959AB16DFABDC00CB4292 /* LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C959AE16DFABDC00CB4292 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		24C959B016DFABDC00CB4292 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		24C959B216DFABDC00CB4292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		24C959B616DFABDC00CB4292 /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
+		24C959B816DFABDC00CB4292 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24C959BD16DFABDC00CB4292 /* LogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		24C959C316DFAC5600CB4292 /* NSArray+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Ext.h"; sourceTree = "<group>"; };
+		24C959C416DFAC5600CB4292 /* NSArray+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ext.m"; sourceTree = "<group>"; };
+		24C959C516DFAC5600CB4292 /* NSBundle+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Ext.h"; sourceTree = "<group>"; };
+		24C959C616DFAC5600CB4292 /* NSBundle+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Ext.m"; sourceTree = "<group>"; };
+		24C959C716DFAC5600CB4292 /* NSData+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Ext.h"; sourceTree = "<group>"; };
+		24C959C816DFAC5600CB4292 /* NSData+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Ext.m"; sourceTree = "<group>"; };
+		24C959C916DFAC5600CB4292 /* NSDictionary+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Ext.h"; sourceTree = "<group>"; };
+		24C959CA16DFAC5600CB4292 /* NSDictionary+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Ext.m"; sourceTree = "<group>"; };
+		24C959CB16DFAC5600CB4292 /* NSString+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Ext.h"; sourceTree = "<group>"; };
+		24C959CC16DFAC5600CB4292 /* NSString+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ext.m"; sourceTree = "<group>"; };
+		24C959CD16DFAC5600CB4292 /* UIColor+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Ext.h"; sourceTree = "<group>"; };
+		24C959CE16DFAC5600CB4292 /* UIColor+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
+		24C959CF16DFAC5600CB4292 /* UIDevice+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Ext.h"; sourceTree = "<group>"; };
+		24C959D016DFAC5600CB4292 /* UIDevice+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Ext.m"; sourceTree = "<group>"; };
+		24C959D116DFAC5600CB4292 /* UIImage+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ext.h"; sourceTree = "<group>"; };
+		24C959D216DFAC5600CB4292 /* UIImage+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ext.m"; sourceTree = "<group>"; };
+		24C959D316DFAC5600CB4292 /* UIScreen+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Ext.h"; sourceTree = "<group>"; };
+		24C959D416DFAC5600CB4292 /* UIScreen+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Ext.m"; sourceTree = "<group>"; };
+		24C959D516DFAC5600CB4292 /* UITableView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Ext.h"; sourceTree = "<group>"; };
+		24C959D616DFAC5600CB4292 /* UITableView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Ext.m"; sourceTree = "<group>"; };
+		24C959E116DFAC6400CB4292 /* NSArrayExtTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayExtTest.h; sourceTree = "<group>"; };
+		24C959E216DFAC6400CB4292 /* NSArrayExtTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayExtTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C959A716DFABDC00CB4292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C959AF16DFABDC00CB4292 /* SenTestingKit.framework in Frameworks */,
+				24C959B116DFABDC00CB4292 /* UIKit.framework in Frameworks */,
+				24C959B316DFABDC00CB4292 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B9E3A616DFABB2005181A8 = {
+			isa = PBXGroup;
+			children = (
+				24C959C216DFAC5600CB4292 /* Source */,
+				24C959B416DFABDC00CB4292 /* LogicTests */,
+				24C959AD16DFABDC00CB4292 /* Frameworks */,
+				24C959AC16DFABDC00CB4292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24C959AC16DFABDC00CB4292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C959AB16DFABDC00CB4292 /* LogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C959AD16DFABDC00CB4292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24C959AE16DFABDC00CB4292 /* SenTestingKit.framework */,
+				24C959B016DFABDC00CB4292 /* UIKit.framework */,
+				24C959B216DFABDC00CB4292 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24C959B416DFABDC00CB4292 /* LogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				24C959E116DFAC6400CB4292 /* NSArrayExtTest.h */,
+				24C959E216DFAC6400CB4292 /* NSArrayExtTest.m */,
+				24C959B516DFABDC00CB4292 /* Supporting Files */,
+			);
+			path = LogicTests;
+			sourceTree = "<group>";
+		};
+		24C959B516DFABDC00CB4292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24C959B616DFABDC00CB4292 /* LogicTests-Info.plist */,
+				24C959B716DFABDC00CB4292 /* InfoPlist.strings */,
+				24C959BD16DFABDC00CB4292 /* LogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24C959C216DFAC5600CB4292 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				24C959C316DFAC5600CB4292 /* NSArray+Ext.h */,
+				24C959C416DFAC5600CB4292 /* NSArray+Ext.m */,
+				24C959C516DFAC5600CB4292 /* NSBundle+Ext.h */,
+				24C959C616DFAC5600CB4292 /* NSBundle+Ext.m */,
+				24C959C716DFAC5600CB4292 /* NSData+Ext.h */,
+				24C959C816DFAC5600CB4292 /* NSData+Ext.m */,
+				24C959C916DFAC5600CB4292 /* NSDictionary+Ext.h */,
+				24C959CA16DFAC5600CB4292 /* NSDictionary+Ext.m */,
+				24C959CB16DFAC5600CB4292 /* NSString+Ext.h */,
+				24C959CC16DFAC5600CB4292 /* NSString+Ext.m */,
+				24C959CD16DFAC5600CB4292 /* UIColor+Ext.h */,
+				24C959CE16DFAC5600CB4292 /* UIColor+Ext.m */,
+				24C959CF16DFAC5600CB4292 /* UIDevice+Ext.h */,
+				24C959D016DFAC5600CB4292 /* UIDevice+Ext.m */,
+				24C959D116DFAC5600CB4292 /* UIImage+Ext.h */,
+				24C959D216DFAC5600CB4292 /* UIImage+Ext.m */,
+				24C959D316DFAC5600CB4292 /* UIScreen+Ext.h */,
+				24C959D416DFAC5600CB4292 /* UIScreen+Ext.m */,
+				24C959D516DFAC5600CB4292 /* UITableView+Ext.h */,
+				24C959D616DFAC5600CB4292 /* UITableView+Ext.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C959AA16DFABDC00CB4292 /* LogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C959C016DFABDC00CB4292 /* Build configuration list for PBXNativeTarget "LogicTests" */;
+			buildPhases = (
+				24C959A616DFABDC00CB4292 /* Sources */,
+				24C959A716DFABDC00CB4292 /* Frameworks */,
+				24C959A816DFABDC00CB4292 /* Resources */,
+				24C959A916DFABDC00CB4292 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogicTests;
+			productName = LogicTests;
+			productReference = 24C959AB16DFABDC00CB4292 /* LogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24B9E3A816DFABB2005181A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 24B9E3AB16DFABB2005181A8 /* Build configuration list for PBXProject "KLCocoaCommon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24B9E3A616DFABB2005181A8;
+			productRefGroup = 24C959AC16DFABDC00CB4292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C959AA16DFABDC00CB4292 /* LogicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C959A816DFABDC00CB4292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C959B916DFABDC00CB4292 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C959A916DFABDC00CB4292 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C959A616DFABDC00CB4292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C959D716DFAC5600CB4292 /* NSArray+Ext.m in Sources */,
+				24C959D816DFAC5600CB4292 /* NSBundle+Ext.m in Sources */,
+				24C959D916DFAC5600CB4292 /* NSData+Ext.m in Sources */,
+				24C959DA16DFAC5600CB4292 /* NSDictionary+Ext.m in Sources */,
+				24C959DB16DFAC5600CB4292 /* NSString+Ext.m in Sources */,
+				24C959DC16DFAC5600CB4292 /* UIColor+Ext.m in Sources */,
+				24C959DD16DFAC5600CB4292 /* UIDevice+Ext.m in Sources */,
+				24C959DE16DFAC5600CB4292 /* UIImage+Ext.m in Sources */,
+				24C959DF16DFAC5600CB4292 /* UIScreen+Ext.m in Sources */,
+				24C959E016DFAC5600CB4292 /* UITableView+Ext.m in Sources */,
+				24C959E316DFAC6400CB4292 /* NSArrayExtTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24C959B716DFABDC00CB4292 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C959B816DFABDC00CB4292 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24B9E3AD16DFABB2005181A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		24B9E3AE16DFABB2005181A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		24C959BE16DFABDC00CB4292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogicTests/LogicTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "LogicTests/LogicTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		24C959BF16DFABDC00CB4292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogicTests/LogicTests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "LogicTests/LogicTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24B9E3AB16DFABB2005181A8 /* Build configuration list for PBXProject "KLCocoaCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B9E3AD16DFABB2005181A8 /* Debug */,
+				24B9E3AE16DFABB2005181A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C959C016DFABDC00CB4292 /* Build configuration list for PBXNativeTarget "LogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C959BE16DFABDC00CB4292 /* Debug */,
+				24C959BF16DFABDC00CB4292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24B9E3A816DFABB2005181A8 /* Project object */;
+}
