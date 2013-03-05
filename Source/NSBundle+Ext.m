@@ -10,4 +10,29 @@
 
 @implementation NSBundle (Ext)
 
++ (NSString *)appName
+{
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
+}
+
++ (NSString *)appDisplayName
+{
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
+}
+
++ (NSString *)appVersion
+{
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+}
+
++ (NSString *)appBuild
+{
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+}
+
++ (NSString *)appVersionString
+{
+    return [NSString stringWithFormat:@"%@.%@", [NSBundle appVersion], [NSBundle appBuild]];
+}
+
 @end

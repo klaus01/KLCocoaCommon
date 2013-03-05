@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24AAAC1516E637EE007D6700 /* NSDate+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AAAC1416E637EE007D6700 /* NSDate+Ext.m */; };
 		24C959AF16DFABDC00CB4292 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C959AE16DFABDC00CB4292 /* SenTestingKit.framework */; };
 		24C959B116DFABDC00CB4292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C959B016DFABDC00CB4292 /* UIKit.framework */; };
 		24C959B316DFABDC00CB4292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C959B216DFABDC00CB4292 /* Foundation.framework */; };
 		24C959B916DFABDC00CB4292 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24C959B716DFABDC00CB4292 /* InfoPlist.strings */; };
 		24C959D716DFAC5600CB4292 /* NSArray+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959C416DFAC5600CB4292 /* NSArray+Ext.m */; };
 		24C959D816DFAC5600CB4292 /* NSBundle+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959C616DFAC5600CB4292 /* NSBundle+Ext.m */; };
-		24C959D916DFAC5600CB4292 /* NSData+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959C816DFAC5600CB4292 /* NSData+Ext.m */; };
 		24C959DA16DFAC5600CB4292 /* NSDictionary+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959CA16DFAC5600CB4292 /* NSDictionary+Ext.m */; };
 		24C959DB16DFAC5600CB4292 /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959CC16DFAC5600CB4292 /* NSString+Ext.m */; };
 		24C959DC16DFAC5600CB4292 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C959CE16DFAC5600CB4292 /* UIColor+Ext.m */; };
@@ -25,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24AAAC1316E637EE007D6700 /* NSDate+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Ext.h"; sourceTree = "<group>"; };
+		24AAAC1416E637EE007D6700 /* NSDate+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Ext.m"; sourceTree = "<group>"; };
 		24C959AB16DFABDC00CB4292 /* LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C959AE16DFABDC00CB4292 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		24C959B016DFABDC00CB4292 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -36,8 +38,6 @@
 		24C959C416DFAC5600CB4292 /* NSArray+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ext.m"; sourceTree = "<group>"; };
 		24C959C516DFAC5600CB4292 /* NSBundle+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Ext.h"; sourceTree = "<group>"; };
 		24C959C616DFAC5600CB4292 /* NSBundle+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Ext.m"; sourceTree = "<group>"; };
-		24C959C716DFAC5600CB4292 /* NSData+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Ext.h"; sourceTree = "<group>"; };
-		24C959C816DFAC5600CB4292 /* NSData+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Ext.m"; sourceTree = "<group>"; };
 		24C959C916DFAC5600CB4292 /* NSDictionary+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Ext.h"; sourceTree = "<group>"; };
 		24C959CA16DFAC5600CB4292 /* NSDictionary+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Ext.m"; sourceTree = "<group>"; };
 		24C959CB16DFAC5600CB4292 /* NSString+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Ext.h"; sourceTree = "<group>"; };
@@ -125,8 +125,8 @@
 				24C959C416DFAC5600CB4292 /* NSArray+Ext.m */,
 				24C959C516DFAC5600CB4292 /* NSBundle+Ext.h */,
 				24C959C616DFAC5600CB4292 /* NSBundle+Ext.m */,
-				24C959C716DFAC5600CB4292 /* NSData+Ext.h */,
-				24C959C816DFAC5600CB4292 /* NSData+Ext.m */,
+				24AAAC1316E637EE007D6700 /* NSDate+Ext.h */,
+				24AAAC1416E637EE007D6700 /* NSDate+Ext.m */,
 				24C959C916DFAC5600CB4292 /* NSDictionary+Ext.h */,
 				24C959CA16DFAC5600CB4292 /* NSDictionary+Ext.m */,
 				24C959CB16DFAC5600CB4292 /* NSString+Ext.h */,
@@ -225,7 +225,6 @@
 			files = (
 				24C959D716DFAC5600CB4292 /* NSArray+Ext.m in Sources */,
 				24C959D816DFAC5600CB4292 /* NSBundle+Ext.m in Sources */,
-				24C959D916DFAC5600CB4292 /* NSData+Ext.m in Sources */,
 				24C959DA16DFAC5600CB4292 /* NSDictionary+Ext.m in Sources */,
 				24C959DB16DFAC5600CB4292 /* NSString+Ext.m in Sources */,
 				24C959DC16DFAC5600CB4292 /* UIColor+Ext.m in Sources */,
@@ -234,6 +233,7 @@
 				24C959DF16DFAC5600CB4292 /* UIScreen+Ext.m in Sources */,
 				24C959E016DFAC5600CB4292 /* UITableView+Ext.m in Sources */,
 				24C959E316DFAC6400CB4292 /* NSArrayExtTest.m in Sources */,
+				24AAAC1516E637EE007D6700 /* NSDate+Ext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +345,7 @@
 				24C959BF16DFABDC00CB4292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

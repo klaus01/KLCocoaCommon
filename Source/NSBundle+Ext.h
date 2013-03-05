@@ -10,4 +10,10 @@
 
 @interface NSBundle (Ext)
 
++ (NSString *)appName;
++ (NSString *)appDisplayName;
++ (NSString *)appVersion;
++ (NSString *)appBuild;
++ (NSString *)appVersionString;
+
 @end
