@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		24888B2816E79737004D66CF /* NSData+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24888B2716E79737004D66CF /* NSData+Ext.m */; };
 		24888B2B16E79CA7004D66CF /* NSStringExtTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 24888B2A16E79CA7004D66CF /* NSStringExtTest.m */; };
+		2491AFFA16E8E104005528EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2491AFF916E8E104005528EC /* CoreGraphics.framework */; };
 		24AAAC1516E637EE007D6700 /* NSDate+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AAAC1416E637EE007D6700 /* NSDate+Ext.m */; };
 		24C959AF16DFABDC00CB4292 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C959AE16DFABDC00CB4292 /* SenTestingKit.framework */; };
 		24C959B116DFABDC00CB4292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C959B016DFABDC00CB4292 /* UIKit.framework */; };
@@ -30,6 +31,7 @@
 		24888B2716E79737004D66CF /* NSData+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Ext.m"; sourceTree = "<group>"; };
 		24888B2916E79CA7004D66CF /* NSStringExtTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExtTest.h; sourceTree = "<group>"; };
 		24888B2A16E79CA7004D66CF /* NSStringExtTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExtTest.m; sourceTree = "<group>"; };
+		2491AFF916E8E104005528EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		24AAAC1316E637EE007D6700 /* NSDate+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Ext.h"; sourceTree = "<group>"; };
 		24AAAC1416E637EE007D6700 /* NSDate+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Ext.m"; sourceTree = "<group>"; };
 		24C959AB16DFABDC00CB4292 /* LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2491AFFA16E8E104005528EC /* CoreGraphics.framework in Frameworks */,
 				24C959AF16DFABDC00CB4292 /* SenTestingKit.framework in Frameworks */,
 				24C959B116DFABDC00CB4292 /* UIKit.framework in Frameworks */,
 				24C959B316DFABDC00CB4292 /* Foundation.framework in Frameworks */,
@@ -94,6 +97,7 @@
 		24C959AD16DFABDC00CB4292 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2491AFF916E8E104005528EC /* CoreGraphics.framework */,
 				24C959AE16DFABDC00CB4292 /* SenTestingKit.framework */,
 				24C959B016DFABDC00CB4292 /* UIKit.framework */,
 				24C959B216DFABDC00CB4292 /* Foundation.framework */,
