@@ -21,18 +21,15 @@
 - (BOOL)isSameMonthWithDate:(NSDate *)date;
 
 /** example
- 
  int y, M, d, w, h, m, s;
  [[NSData data] decodeForYear:&y month:&M day:&d weekday:&w hour:&h minute:&m second:&s];
  NSLog(@"%d-%d-%d %d %d:%d:%d", y, M, d, w, h, m, s);
- 
  */
 - (void)decodeForYear:(int *)year month:(int *)month day:(int *)day weekday:(int *)weekday hour:(int *)hour minute:(int *)minute second:(int *)second;
 - (int)year;
 - (int)month;
 - (int)day;
 - (int)weekday;
-
 
 - (NSDate *)addYears:(NSInteger)years;
 - (NSDate *)addMonths:(NSInteger)months;
