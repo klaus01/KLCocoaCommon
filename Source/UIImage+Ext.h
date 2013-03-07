@@ -10,4 +10,10 @@
 
 @interface UIImage (Ext)
 
+/// 返回倒影图片
+/**
+ height: 倒影图片高度
+ */
+- (UIImage *)reflectedImageWithHeight:(NSUInteger)height;
+
 @end
